@@ -11,4 +11,4 @@
 
 
 
-See more on the wiki
+See more on the [wiki](https://github.com/superspeeder/game-engine-2/wiki).
