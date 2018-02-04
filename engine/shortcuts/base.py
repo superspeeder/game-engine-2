@@ -1,5 +1,5 @@
 import pygame
-from pygame.locals import QUIT
+from pygame.locals import QUIT, K_UP, K_DOWN, K_RIGHT, K_LEFT
 
 def update():
     pygame.display.update()
@@ -11,12 +11,6 @@ def make_display(size, color):
 
 def make_group():
     return pygame.sprite.Group()
-
-
-def quit_conditional(evt):
-    if evt.type == QUIT:
-        pygame.quit()
-        exit()
 
 
 class SpriteBuilder(object):
